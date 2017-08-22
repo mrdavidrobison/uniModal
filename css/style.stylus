@@ -1,0 +1,11 @@
+#myBtn
+  border-radius 3px
+  background-color blue
+  color white
+  float right 
+  margin 80px
+
+.modal
+  display none
+  float right 
+  margin 20px
