@@ -1,8 +1,8 @@
 var modal = document.getElementById('modal-wrapper');
-var loginBtn = document.getElementById('myBtn');
+var portalBtn = document.getElementById('portalBtn');
 var closeBtn = document.getElementById('close');
 
-loginBtn.onclick = function() {
+portalBtn.onclick = function() {
   modal.style.display = "block";
 }
 
