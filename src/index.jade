@@ -8,10 +8,17 @@ html(lang="en")
     title Modal PopUp
   body
     button#myBtn(type='button') Portal Login
-  .modal.fade#myModal
+  .modal#myModal
     .modal-content 
       span#close &times;
       h4 Login
-      p Username
-      p Password
+      form(action='/action_page.php')
+        | Username
+        input(type='text', name='fname')
+        br
+        | Password 
+        input(type='text', name='lname')
+        br
+        input#submitBtn(type='submit', value='Submit')
+
   script(src="index.js")
