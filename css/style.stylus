@@ -12,7 +12,21 @@ input[type=text], input[type=password]
   border-radius 5px
   font-size 1em
 
-button
+// take out this when inserting into wordpress
+#portalBtn
+  background-color #3E96A8
+  color white
+  padding 10px
+  border-radius 5px
+  margin 20%
+  border none
+  cursor pointer
+  width 200px
+  font-size 1em
+  &:hover
+    opacity 0.9
+
+#loginBtn
   background-color #3E96A8
   color white
   padding 12px
