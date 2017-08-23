@@ -38,3 +38,12 @@
   color black
   text-decoration none
   cursor pointer
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 1.25s linear;
+    -moz-transition: opacity 1.25s linear;
+      -ms-transition: opacity 1.25s linear;
+      -o-transition: opacity 1.25s linear;
+          transition: opacity 1.25s linear;
+}
