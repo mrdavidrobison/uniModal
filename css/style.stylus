@@ -79,14 +79,6 @@ input[type=text], input[type=password]
   color red
   cursor pointer
 
-.animate
-  animation zoom 0.6s
-
-@keyframes zoom {
-from {transform: scale(0)}
-to {transform: scale(1)}
-}
-
 @media (max-width: 1400px)
   .modalLogo
     width 200px
