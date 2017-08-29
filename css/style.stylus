@@ -91,7 +91,7 @@ input[type=text], input[type=password]
 
 /* dynamic modal */
 
-.team_bio_modal {
+.bas_modal {
     display: none;
     opacity: 1;
     -webkit-transform: scale(0.1);

@@ -8,6 +8,8 @@ html(lang="en")
     title Modal PopUp
   body
     button#portalBtn(type='button') Portal Login
+
+    
     #modal-wrapper.modal
         form.modal-content.animate(action='https://secure.healthx.com/autologin.aspx' method='post')
           .imgcontainer
@@ -21,4 +23,5 @@ html(lang="en")
             input(type='checkbox', style='margin:10px;')
             | Remember me      
             a(href='#', style='text-decoration:none; float:right; margin-right:34px; margin-top:26px;') Forgot Password ?
+
   script(src="index.js")
