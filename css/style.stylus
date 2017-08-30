@@ -91,7 +91,7 @@ input[type=text], input[type=password]
 
 /* dynamic modal */
 
-.bas_modal {
+.modal-wrapper {
     display: none;
     opacity: 1;
     -webkit-transform: scale(0.1);
