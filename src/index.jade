@@ -9,17 +9,4 @@ html(lang="en")
   body
     button#portalBtn(type='button') Portal Login   
     #modal-wrapper.modal
-      form.modal-content.animate(action='https://secure.healthx.com/autologin.aspx' method='post')
-        .imgcontainer
-          span.close(onclick="document.getElementById('modal-wrapper').style.display='none'", title='Close PopUp') ×
-          img.modalLogo(src='http://brainstorm.solutions/bas/wp-content/uploads/2017/02/logo.png')
-          h1(style='text-align:center') Portal Login
-        .container
-          input(type='text', placeholder='Username', name='username')
-          input(type='password', placeholder='Password', name='password')
-          button#loginBtn(type='submit') Login
-          input(type='checkbox', style='margin:10px;')
-          | Remember me      
-          a(href='#', style='text-decoration:none; float:right; margin-right:34px; margin-top:26px;') Forgot Password ?
-
   script(src="index.js")
