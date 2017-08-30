@@ -9,10 +9,17 @@ var docId = function(id) {
 var bioPicOne = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('bas-pres'), docId('bas-vp-salesops'), docId('bas-vp-sales'), docId('bas-directorbd-mar'), docId('bas-directorbd-ser'), docId('bas-directorbd-wr')];
 var bioPicTwo = [docId('bas-directorbd-mwr'), docId('bas-director-bd'), docId('bas-director-mis'), docId('bas-director-fa'), docId('bas-director-acct'), docId('bas-director-loss'), docId('bas-director-claims')];
 
-for (var i = 0; i <= (bioPic.length-1); i++) {
-  bioPic[i].onclick = function () {
+for (var i = 0; i <= (bioPicOne.length-1); i++) {
+  bioPicOne[i].onclick = function () {
     modalWrapper.style.display = "block";
     modalWrapper.innerHTML = basMessagesOne[i];
+  }
+}
+
+for (var j = 0; j <= (bioPicTwo.length -1); j++) {
+  bioPicTwo[j].onclick = function () {
+    modalWrapper.style.display = "block";
+    modalWrapper.innerHTML = basMessagesTwo[j];
   }
 }
 
