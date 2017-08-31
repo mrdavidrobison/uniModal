@@ -1,3 +1,32 @@
+var basTeamMembers = [
+  {
+    'id': 'bas-ceo',
+    'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Jim-C.jpg',
+    'firstName': 'James E.',
+    'lastName': 'Connell',
+    'companyTitle': 'CEO',
+    'linkedInUrl': 'https://www.linkedin.com/in/james-connell-090a6114/',
+    'bioContentP1': 'Jim graduated from the University of Iowa with a degree in Finance and Marketing. He received his MBA from the University of Chicago, Booth School of Business. Prior to joining BAS, Jim spent 22 years with Inland Steel in a variety of sales, marketing, and strategic management positions. Jim was also the President of Energy Absorptions System, the largest operating company of Quixote Corporation from 1999 to 2009. In 2010, Jim joined BAS as Chief Executive Officer.',
+    'bioContentP2': 'Working with his BAS partners, Joe Toscano and Marty Joseph, he has created a growth strategy for the organization to identify new opportunities and create a culture of greater accountability. With over 30 years of business experience Jim brings valuable management skills to the team. Jim adds significant leadership to his employee, broker, and client relationships.',
+    'regionMap': '',
+    'quote': 'Jim’s Perspective: "I am most satisfied when I see our employees reach their full potential. Here at BAS we like to support a competitive spirit in order to remain the best business partner to our brokers and clients."',
+    'bioContent3': 'Jim is a husband, father of two, and a grandfather. He enjoys spending time with his family, golfing, and traveling. He was Vice Chairman of the American Road and Transportation Builders Association from 2004 to 2009. Jim is currently a member of Cigna’s Payer Advisory Council, SPBA, and SIIA.'
+  },
+  {
+    'id': 'bas-cfo',
+    'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Joe-T.jpg',
+    'firstName': 'Joe',
+    'lastName': 'Toscano',
+    'companyTitle': 'CFO',
+    'linkedInUrl': '',
+    'bioContentP1': 'Jim graduated from the University of Iowa with a degree in Finance and Marketing. He received his MBA from the University of Chicago, Booth School of Business. Prior to joining BAS, Jim spent 22 years with Inland Steel in a variety of sales, marketing, and strategic management positions. Jim was also the President of Energy Absorptions System, the largest operating company of Quixote Corporation from 1999 to 2009. In 2010, Jim joined BAS as Chief Executive Officer.',
+    'bioContentP2': 'Working with his BAS partners, Joe Toscano and Marty Joseph, he has created a growth strategy for the organization to identify new opportunities and create a culture of greater accountability. With over 30 years of business experience Jim brings valuable management skills to the team. Jim adds significant leadership to his employee, broker, and client relationships.',
+    'regionMap': '',
+    'quote': 'Jim’s Perspective: "I am most satisfied when I see our employees reach their full potential. Here at BAS we like to support a competitive spirit in order to remain the best business partner to our brokers and clients."',
+    'bioContent3': 'Jim is a husband, father of two, and a grandfather. He enjoys spending time with his family, golfing, and traveling. He was Vice Chairman of the American Road and Transportation Builders Association from 2004 to 2009. Jim is currently a member of Cigna’s Payer Advisory Council, SPBA, and SIIA.'    
+  }
+];
+
 var modalWrapper = document.getElementById('modal-wrapper');
 
 var docId = function(id) { 
@@ -12,7 +41,7 @@ for (var i = 0; i < bioPics.length-1; i++) {
   bioPics[i].onclick = function () {   
     modalWrapper.innerHTML = basMessages[i];
     modalWrapper.style.display = "block";
-  }
+  };
 }
 
 // close the modal when close button is clicked
