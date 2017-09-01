@@ -1,5 +1,4 @@
-var basTeamMembers = [
-  {
+var basTeamMembers = [{
     'id': 'bas-ceo',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Jim-C.jpg',
     'firstName': 'James E.',
@@ -23,7 +22,7 @@ var basTeamMembers = [
     'bioContentP2': 'Joe joined BAS in 1989 and was initially responsible for operations. He is currently an equity partner and holds the title of CFO responsible for business operations and accounting functions.',
     'regionMap': '',
     'quote': 'Joe’s Perspective: “BAS excels at handling a complex set of client variables through enterprise level solutions delivering on its value proposition.”',
-    'bioContentP3': 'Joe is a husband, father of three daughters, and has two grandchildren. He enjoys golfing, cooking, travel, and spending time with his family. Joe has served on boards of several privately held companies, and currently sits on the Board of Calumet Country Club.'    
+    'bioContentP3': 'Joe is a husband, father of three daughters, and has two grandchildren. He enjoys golfing, cooking, travel, and spending time with his family. Joe has served on boards of several privately held companies, and currently sits on the Board of Calumet Country Club.'
   },
   {
     'id': 'bas-pres',
@@ -36,7 +35,7 @@ var basTeamMembers = [
     'bioContentP2': 'Leading the Sales and Marketing efforts of BAS, Marty has grown the company from only administering employee benefit plans to offering a full array of cost management solution services. Marty has developed the organization\'s capabilities to become an industry leader in Third Party Administration.',
     'regionMap': '',
     'quote': 'Marty’s Perspective: “Our organization allows our clients to address the problems of rising health care costs more aggressively while actively engaging their employees in their own health care management.”',
-    'bioContentP3': 'Marty is a husband, and father of two girls. His free time is spent with his family, living a healthy lifestyle through fitness and food. Traveling and experiencing new cultures is high on his list. Marty is an active member and sits on the HM Advisory Board as well as Cigna Payer Solution Board.'    
+    'bioContentP3': 'Marty is a husband, and father of two girls. His free time is spent with his family, living a healthy lifestyle through fitness and food. Traveling and experiencing new cultures is high on his list. Marty is an active member and sits on the HM Advisory Board as well as Cigna Payer Solution Board.'
   },
   {
     'id': 'bas-vp-salesops',
@@ -49,7 +48,7 @@ var basTeamMembers = [
     'bioContentP2': '',
     'regionMap': '',
     'quote': 'Justin’s Perspective: “As the employer sponsored benefits arena continues to evolve at an unprecedented speed, it is imperative that flexibility, cost savings, and overall client experience are maximized.”',
-    'bioContentP3': 'Justin and his wife currently live in Mokena, IL. His free time is spent with his family and friends enjoying time in the city and traveling out west.'    
+    'bioContentP3': 'Justin and his wife currently live in Mokena, IL. His free time is spent with his family and friends enjoying time in the city and traveling out west.'
   },
   {
     'id': 'bas-vp-sales',
@@ -62,8 +61,8 @@ var basTeamMembers = [
     'bioContentP2': 'With more than 28 years in the employee benefits industry, Tom is able to offer broker partners and clients a unique perspective on the health care industry. His background on the insurance carrier side, the fully insured market, and the self-funded market support a greater understanding of the business. Tom’s active participation in the evolution of the health care market over the last 28 years has made him an industry expert, and leader on the BAS team.',
     'regionMap': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/map-thomas.png',
     'quote': 'Tom’s Perspective: “My main objective is to provide my broker partners and their clients with real solutions. This allows employers to offer their employees cost effective health care programs, high quality, and high touch service. If an employer’s benefits program is not “positive” to their employees it loses a tremendous amount of its value. I try to offer my clients the same passion and responsiveness that I brought to my job as a 22 years old right out of college!”',
-    'bioContentP3': 'Tom is a husband and father of three boys. He enjoys spending time with his large, extended family as he is 8th out of 9 children. His immediate family (in addition to his 18 nieces and nephews) get together frequently. Tom’s spare time is spent reading, exercising, and enjoying theater and music. Through his local Catholic Church Tom is part of a Leadership Training Program (LTP) that mentors grade school boys from 4th through 8th grade teaching them it’s “cool to be good”. Tom is also a member of IJP Athletic Board, a basketball coach at IJP, and a baseball coach at HF Park District.'    
-  },  
+    'bioContentP3': 'Tom is a husband and father of three boys. He enjoys spending time with his large, extended family as he is 8th out of 9 children. His immediate family (in addition to his 18 nieces and nephews) get together frequently. Tom’s spare time is spent reading, exercising, and enjoying theater and music. Through his local Catholic Church Tom is part of a Leadership Training Program (LTP) that mentors grade school boys from 4th through 8th grade teaching them it’s “cool to be good”. Tom is also a member of IJP Athletic Board, a basketball coach at IJP, and a baseball coach at HF Park District.'
+  },
   {
     'id': 'bas-directorbd-mar',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Elizabeth-T.jpg',
@@ -75,7 +74,7 @@ var basTeamMembers = [
     'bioContentP2': 'Elizabeth is currently a Sales Executive for mid to large size employer groups. Her territory includes IL, MI, PA, NY, NJ, MD and Washington D.C. Her expertise in a wide array of stop loss products, analytics, network and reference based pricing, regulatory compliance and plan design help her accomplish long term cost reduction strategies with her clients.',
     'regionMap': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/map-elizabeth.png',
     'quote': '“I know I’ve done my job when I can identify a client’s particular needs, and provide the right solution for them. I am dedicated and diligent in applying the latest industry standards along-side our BAS solutions and I strive to provide the best service possible. The most rewarding part of my job is knowing that my clients are satisfied.”',
-    'bioContentP3': 'In her free time, Elizabeth enjoys spending time with her family. She loves to cook, and she considers herself an expert in Italian cuisine. Whenever Elizabeth has time for a break you can expect she’s traveling and learning about new cultures, new foods, and living life to the fullest! She is also an active member in both SIIA, and SPBA.'    
+    'bioContentP3': 'In her free time, Elizabeth enjoys spending time with her family. She loves to cook, and she considers herself an expert in Italian cuisine. Whenever Elizabeth has time for a break you can expect she’s traveling and learning about new cultures, new foods, and living life to the fullest! She is also an active member in both SIIA, and SPBA.'
   },
   {
     'id': 'bas-directorbd-ser',
@@ -88,8 +87,8 @@ var basTeamMembers = [
     'bioContentP2': 'Jake’s professional skills are focused on cultivating, maintaining, and strengthening strategic broker and client partnerships. With a strong desire to “compete to win”, Jake is a valuable asset to the BAS team. He is able to keep the end goal in sight, while meeting the expectations of his brokers and their clients. Jake is a leader on the BAS sales team and utilizes the full array of BAS products and services to address the challenges of the current health care marketplace.',
     'regionMap': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/map-jake.png',
     'quote': 'Jake’s Perspective: “My objective is to explore and successfully execute customized solutions for my clients. This objective is routinely achieved through BAS’ unique ability to implement proven cost containment strategies to meet my client’s specific needs.”',
-    'bioContentP3': 'Jake spends all his free time with his wife and two sons Luke and Leo. The biggest joy in his life is being a Dad, and working hard for his family. As a baseball fan he enjoys spending the day at the ball park supporting the St. Louis Cardinals! Jake is an active member or SIIA, SPBA, and NAHU.'    
-  },   
+    'bioContentP3': 'Jake spends all his free time with his wife and two sons Luke and Leo. The biggest joy in his life is being a Dad, and working hard for his family. As a baseball fan he enjoys spending the day at the ball park supporting the St. Louis Cardinals! Jake is an active member or SIIA, SPBA, and NAHU.'
+  },
   {
     'id': 'bas-directorbd-wr',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Shane_D.png',
@@ -101,8 +100,8 @@ var basTeamMembers = [
     'bioContentP2': '',
     'regionMap': '',
     'quote': 'Shane\'s Perspective: “The customized level of service that BAS is able to provide is what makes us different from our competition. Healthcare is a such a large line-item for companies today, they should be able to control the way their benefits are administered for their employees. Self-funding with a TPA is the most effective way for them to take the reins of their health plan spend and create the experience they want their employees to have.”',
-    'bioContentP3': 'Shane is a proud Evans Scholar alumni and remains passionate about giving back to the Evans Scholar Foundation. In his free time he enjoys spending time with his friends and family, playing golf, and trying different restaurants in Chicago. He is a big fan of both Marquette University and Chicago Bulls basketball.'    
-  }, 
+    'bioContentP3': 'Shane is a proud Evans Scholar alumni and remains passionate about giving back to the Evans Scholar Foundation. In his free time he enjoys spending time with his friends and family, playing golf, and trying different restaurants in Chicago. He is a big fan of both Marquette University and Chicago Bulls basketball.'
+  },
   {
     'id': 'bas-directorbd-mwr',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Terri-R.jpg',
@@ -114,8 +113,8 @@ var basTeamMembers = [
     'bioContentP2': 'Terri’s professional ability to articulate the benefits of a Third Party Administrator to her clients is unmatched. Her cross-departmental knowledge make her a valuable asset to management, and continuous growth of the organization. With industry expertise Terri continues to lead the team in self-funded insurance, and stop loss prevention.',
     'regionMap': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/map-terri.png',
     'quote': '“Many companies don’t realize the usable information right at their fingertips! I take pride in educating my clients on their options and possibilities. It’s rewarding to know the client understands the benefits of working with BAS. My goal is to offer as much flexibility, customization, and commitment to each of my groups as I can.”',
-    'bioContentP3': 'Terri is a dedicated wife and mother of two children valuing family above all. Any free time is spent taking care of her family and enjoying motherhood. Her dedication to BAS for the last 25 years has contributed to the organization\'s success. Through BAS membership Terri participates in SIIA, and SPBA annual meetings.'    
-  },     
+    'bioContentP3': 'Terri is a dedicated wife and mother of two children valuing family above all. Any free time is spent taking care of her family and enjoying motherhood. Her dedication to BAS for the last 25 years has contributed to the organization\'s success. Through BAS membership Terri participates in SIIA, and SPBA annual meetings.'
+  },
   {
     'id': 'bas-director-bd',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_John-C.jpg',
@@ -127,8 +126,8 @@ var basTeamMembers = [
     'bioContentP2': '',
     'regionMap': '',
     'quote': 'John\'s Perspective: “Healthcare is very personal and begins locally. Employers today are balancing what is their single largest ongoing expense with what is also their best tool to recruit and retain quality employees. It is imperative that the employer and broker/consultant have an Administrator who is; Independent, Flexible and has the ability to integrate cost containment solutions that meet the local need of each employee.”',
-    'bioContentP3': 'John presently resides in Boise, Idaho and in his spare time enjoys rafting, golfing and other outdoor activities with his 3 college age children.'    
-  },  
+    'bioContentP3': 'John presently resides in Boise, Idaho and in his spare time enjoys rafting, golfing and other outdoor activities with his 3 college age children.'
+  },
   {
     'id': 'bas-director-mis',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Patti-C.jpg',
@@ -140,8 +139,8 @@ var basTeamMembers = [
     'bioContentP2': 'Patti also spends a significant amount of her time programming, testing and incorporating system enhancements. She is heavily involved with all BAS departments providing support, technical expertise and collectively creates strategic processes that will optimize solutions for our clients.',
     'regionMap': '',
     'quote': '“During my employment with BAS, I feel proud being part of the success of BAS. I will continue to diligently pursue both our organizational goals and Client needs through ongoing Education, teamwork and technology.”',
-    'bioContentP3': 'Patti is a wife and mother who strongly values her family and good friendships. Her favorite pastime is cheering on The Chicago Blackhawks! Patti supports the Wounded Worrier Project and American Breast Cancer Foundation.'    
-  },  
+    'bioContentP3': 'Patti is a wife and mother who strongly values her family and good friendships. Her favorite pastime is cheering on The Chicago Blackhawks! Patti supports the Wounded Worrier Project and American Breast Cancer Foundation.'
+  },
   {
     'id': 'bas-director-fa',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Kyle-B.jpg',
@@ -153,8 +152,8 @@ var basTeamMembers = [
     'bioContentP2': 'Kyle also worked at Deloitte as an auditor where he passed the CPA exam, and performed financial audits on a wide array of organizations. He began his career working at his father’s independent commercial property and casualty insurance agency.',
     'regionMap': '',
     'quote': 'Kyle’s Perspective: “In my role, I strive to meet our clients’ needs by providing clear, timely information and by delivering excellent external and internal customer service.”',
-    'bioContentP3': 'Kyle is a husband and father of three children. He enjoys spending time with his family, golfing, and rooting for Ohio State’s football and basketball teams.'    
-  },    
+    'bioContentP3': 'Kyle is a husband and father of three children. He enjoys spending time with his family, golfing, and rooting for Ohio State’s football and basketball teams.'
+  },
   {
     'id': 'bas-director-acct',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Lynn-P.jpg',
@@ -166,8 +165,8 @@ var basTeamMembers = [
     'bioContentP2': 'Lynn deals with all aspects of Accounting including Claim Funding and Stop Loss. Her attention to detail, strong communication, and organization skills have built a strong department. As a director she has cultivated an environment following consistent processes and principles to meet all client expectations and beyond.',
     'regionMap': '',
     'quote': '“I have seen incredible changes at BAS during my twenty years with the company. My goal has always been to assist clients in their understanding of our procedures and transition to a Third Party environment. BAS strives to provide the best solution in every situation, and maintain the highest industry standards.”',
-    'bioContentP3': 'Lynn spends her free time with her family and staying active. She is a wife, and mother of four sons. She is a true advocate of living a healthy lifestyle which includes walking and working out. She’s a Blackhawks fan and enjoys weekend motorcycle rides with her husband.'    
-  }, 
+    'bioContentP3': 'Lynn spends her free time with her family and staying active. She is a wife, and mother of four sons. She is a true advocate of living a healthy lifestyle which includes walking and working out. She’s a Blackhawks fan and enjoys weekend motorcycle rides with her husband.'
+  },
   {
     'id': 'bas-director-loss',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_John-V.jpg',
@@ -179,8 +178,8 @@ var basTeamMembers = [
     'bioContentP2': 'John prides himself in “doing things the correct way, which is not always the easy way”. He contributes consistency and dedication to the BAS team, assisting clients in predicting future costs and negotiating the most competitive stop loss arrangements available.',
     'regionMap': '',
     'quote': '“I have worked with organizations in the past that have struggled in the changing Employee Benefits industry, but BAS is thriving by taking on those challenges, and directing our clients with specific strategy, innovative solutions, and dedicated service.”',
-    'bioContentP3': 'John belongs to the Chicago Italian American Charitable Organization (CIACO), The Village Theater Guild (Member and Actor), and volunteers at The United Way, PADS, and Relay for Life. He is also a professional singer, guitarist, and a columnist for the Arlington Almanac in Arlington Heights.'    
-  },  
+    'bioContentP3': 'John belongs to the Chicago Italian American Charitable Organization (CIACO), The Village Theater Guild (Member and Actor), and volunteers at The United Way, PADS, and Relay for Life. He is also a professional singer, guitarist, and a columnist for the Arlington Almanac in Arlington Heights.'
+  },
   {
     'id': 'bas-director-claims',
     'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Tracy-W.jpg',
@@ -192,21 +191,30 @@ var basTeamMembers = [
     'bioContentP2': '',
     'regionMap': '',
     'quote': '',
-    'bioContentP3': ''    
-  },                                
+    'bioContentP3': ''
+  },
 ];
 
 
 var modalWrapper = document.getElementById('modal-wrapper');
 
-var docId = function(id) { 
-  return document.getElementById(id); 
+function register() {
+  var ids = ['name', 'lname', 'email', 'password', 'cpassword'];
+  var printThis = "";
+  for (var i = 0; i < ids.length; i++) {
+    printThis += "<br>" + ids[i];
+  }
+  return printThis;
 }
+document.getElementById('ids').innerHTML = register();
 
+// var docId = function(id) { 
+//   return document.getElementById(id); 
+// }
 // array that includes [0]: portal login id, [1-15]: ids of bios, total of sixteen array items
-var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('bas-pres'), docId('bas-vp-salesops'), docId('bas-vp-sales'), docId('bas-directorbd-mar'), docId('bas-directorbd-ser'), docId('bas-directorbd-wr'), docId('bas-directorbd-mwr'), docId('bas-director-bd'), docId('bas-director-mis'), docId('bas-director-fa'), docId('bas-director-acct'), docId('bas-director-loss'), docId('bas-director-claims')];
+// var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('bas-pres'), docId('bas-vp-salesops'), docId('bas-vp-sales'), docId('bas-directorbd-mar'), docId('bas-directorbd-ser'), docId('bas-directorbd-wr'), docId('bas-directorbd-mwr'), docId('bas-director-bd'), docId('bas-director-mis'), docId('bas-director-fa'), docId('bas-director-acct'), docId('bas-director-loss'), docId('bas-director-claims')];
 
 // close the modal when close button is clicked
-document.getElementsByClassName('bas-close').onclick = function() {
+document.getElementsByClassName('bas-close').onclick = function () {
   modalWrapper.style.display = "none";
 }
