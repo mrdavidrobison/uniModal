@@ -74,7 +74,7 @@ var basTeamMembers = [
     'bioContentP1': 'Elizabeth holds a Bachelor’s Degree in Marketing from Columbia College in Chicago, IL. She started at BAS in 2006 as a Sales and Marketing Representative for small groups. In this role she marketed stop loss and sold a small group product for employer groups of 10-100 employee lives. Soon after she took over the additional responsibility of Wellness Coordinator due to her passion for healthy lifestyles. She was responsible for the design, implementation, and reporting of all activity based and outcome based wellness programs. Her success in this position was proved by positive measurable outcomes.',
     'bioContentP2': 'Elizabeth is currently a Sales Executive for mid to large size employer groups. Her territory includes IL, MI, PA, NY, NJ, MD and Washington D.C. Her expertise in a wide array of stop loss products, analytics, network and reference based pricing, regulatory compliance and plan design help her accomplish long term cost reduction strategies with her clients.',
     'regionMap': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/map-elizabeth.png',
-    'quote': 'I know I’ve done my job when I can identify a client’s particular needs, and provide the right solution for them. I am dedicated and diligent in applying the latest industry standards along-side our BAS solutions and I strive to provide the best service possible. The most rewarding part of my job is knowing that my clients are satisfied.',
+    'quote': '“I know I’ve done my job when I can identify a client’s particular needs, and provide the right solution for them. I am dedicated and diligent in applying the latest industry standards along-side our BAS solutions and I strive to provide the best service possible. The most rewarding part of my job is knowing that my clients are satisfied.”',
     'bioContentP3': 'In her free time, Elizabeth enjoys spending time with her family. She loves to cook, and she considers herself an expert in Italian cuisine. Whenever Elizabeth has time for a break you can expect she’s traveling and learning about new cultures, new foods, and living life to the fullest! She is also an active member in both SIIA, and SPBA.'    
   },
   {
@@ -113,7 +113,7 @@ var basTeamMembers = [
     'bioContentP1': 'Terri holds a Bachelor’s Degree from Northern Illinois University. Terri is one of the longest standing employees with 25 years at BAS. Terri started at BAS with the title of Sales and Marketing Account Executive. As she mastered her role as Account Executive she took on a Senior Sales Executive position. Her current territory includes Illinois, Nebraska, Ohio, Texas, Florida, Missouri (KC area).',
     'bioContentP2': 'Terri’s professional ability to articulate the benefits of a Third Party Administrator to her clients is unmatched. Her cross-departmental knowledge make her a valuable asset to management, and continuous growth of the organization. With industry expertise Terri continues to lead the team in self-funded insurance, and stop loss prevention.',
     'regionMap': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/map-terri.png',
-    'quote': 'Many companies don’t realize the usable information right at their fingertips! I take pride in educating my clients on their options and possibilities. It’s rewarding to know the client understands the benefits of working with BAS. My goal is to offer as much flexibility, customization, and commitment to each of my groups as I can.',
+    'quote': '“Many companies don’t realize the usable information right at their fingertips! I take pride in educating my clients on their options and possibilities. It’s rewarding to know the client understands the benefits of working with BAS. My goal is to offer as much flexibility, customization, and commitment to each of my groups as I can.”',
     'bioContentP3': 'Terri is a dedicated wife and mother of two children valuing family above all. Any free time is spent taking care of her family and enjoying motherhood. Her dedication to BAS for the last 25 years has contributed to the organization\'s success. Through BAS membership Terri participates in SIIA, and SPBA annual meetings.'    
   },     
   {
@@ -139,10 +139,65 @@ var basTeamMembers = [
     'bioContentP1': 'Patti received a Bachelor’s degree in Education from Illinois State University. She is our Director of MIS with over 30 years of experience in the healthcare industry. During her 25 years with BAS, she has worn many hats and managed several departments. Her overall role includes the timely and accurate generation and execution of MIS operations and overseeing our claims software system.',
     'bioContentP2': 'Patti also spends a significant amount of her time programming, testing and incorporating system enhancements. She is heavily involved with all BAS departments providing support, technical expertise and collectively creates strategic processes that will optimize solutions for our clients.',
     'regionMap': '',
-    'quote': 'During my employment with BAS, I feel proud being part of the success of BAS. I will continue to diligently pursue both our organizational goals and Client needs through ongoing Education, teamwork and technology.',
+    'quote': '“During my employment with BAS, I feel proud being part of the success of BAS. I will continue to diligently pursue both our organizational goals and Client needs through ongoing Education, teamwork and technology.”',
     'bioContentP3': 'Patti is a wife and mother who strongly values her family and good friendships. Her favorite pastime is cheering on The Chicago Blackhawks! Patti supports the Wounded Worrier Project and American Breast Cancer Foundation.'    
-  },          
+  },  
+  {
+    'id': 'bas-director-fa',
+    'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Kyle-B.jpg',
+    'firstName': 'Kyle',
+    'lastName': 'Bersnak',
+    'companyTitle': 'Director of Finance and Accounting',
+    'linkedInUrl': 'https://www.linkedin.com/in/kyle-bersnak-3b4b764/',
+    'bioContentP1': 'Kyle received both his Bachelor’s Degree in Accounting, Finance and Risk Management and Insurance and his MBA from Ohio State University’s Fisher College of Business. Prior to joining BAS, Kyle spent 7+ years in various finance and accounting roles at NetJets, a Berkshire Hathaway Company. His current role at BAS is Director of Finance and Accounting.',
+    'bioContentP2': 'Kyle also worked at Deloitte as an auditor where he passed the CPA exam, and performed financial audits on a wide array of organizations. He began his career working at his father’s independent commercial property and casualty insurance agency.',
+    'regionMap': '',
+    'quote': 'Kyle’s Perspective: “In my role, I strive to meet our clients’ needs by providing clear, timely information and by delivering excellent external and internal customer service.”',
+    'bioContentP3': 'Kyle is a husband and father of three children. He enjoys spending time with his family, golfing, and rooting for Ohio State’s football and basketball teams.'    
+  },    
+  {
+    'id': 'bas-director-acct',
+    'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Lynn-P.jpg',
+    'firstName': 'Lynn',
+    'lastName': 'Davis',
+    'companyTitle': 'Director of Accounting',
+    'linkedInUrl': 'https://www.linkedin.com/in/lynn-peppler-80a64a43/',
+    'bioContentP1': 'Lynn is the Director of Accounting at BAS. She has over twenty years of experience with the company in the accounting department. Lynn is recognized for developing the department and understanding the needs of a third party administrator. Her technical expertise in accounting along with her management skills make her an asset to BAS.',
+    'bioContentP2': 'Lynn deals with all aspects of Accounting including Claim Funding and Stop Loss. Her attention to detail, strong communication, and organization skills have built a strong department. As a director she has cultivated an environment following consistent processes and principles to meet all client expectations and beyond.',
+    'regionMap': '',
+    'quote': '“I have seen incredible changes at BAS during my twenty years with the company. My goal has always been to assist clients in their understanding of our procedures and transition to a Third Party environment. BAS strives to provide the best solution in every situation, and maintain the highest industry standards.”',
+    'bioContentP3': 'Lynn spends her free time with her family and staying active. She is a wife, and mother of four sons. She is a true advocate of living a healthy lifestyle which includes walking and working out. She’s a Blackhawks fan and enjoys weekend motorcycle rides with her husband.'    
+  }, 
+  {
+    'id': 'bas-director-loss',
+    'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_John-V.jpg',
+    'firstName': 'John',
+    'lastName': 'Vinopal',
+    'companyTitle': 'Director of Stop Loss Underwriting',
+    'linkedInUrl': 'https://www.linkedin.com/in/john-vinopal-48046619/',
+    'bioContentP1': 'John holds a Bachelor of Arts Degree in Communications from Western Illinois University. With over thirty years of insurance industry expertise, John is the Director of Stop Loss Underwriting for BAS. John has a diverse background in Sales, Client Management and Underwriting, and a strong skill set for coordinating major facets of a client’s benefit program.',
+    'bioContentP2': 'John prides himself in “doing things the correct way, which is not always the easy way”. He contributes consistency and dedication to the BAS team, assisting clients in predicting future costs and negotiating the most competitive stop loss arrangements available.',
+    'regionMap': '',
+    'quote': '“I have worked with organizations in the past that have struggled in the changing Employee Benefits industry, but BAS is thriving by taking on those challenges, and directing our clients with specific strategy, innovative solutions, and dedicated service.”',
+    'bioContentP3': 'John belongs to the Chicago Italian American Charitable Organization (CIACO), The Village Theater Guild (Member and Actor), and volunteers at The United Way, PADS, and Relay for Life. He is also a professional singer, guitarist, and a columnist for the Arlington Almanac in Arlington Heights.'    
+  },  
+  {
+    'id': 'bas-director-claims',
+    'picUrl': 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Tracy-W.jpg',
+    'firstName': 'Tracey',
+    'lastName': 'Wells',
+    'companyTitle': 'Director of Claim Operations',
+    'linkedInUrl': 'https://www.linkedin.com/in/tracey-wells-b6991b104/',
+    'bioContentP1': 'Bio for Tracey coming soon.',
+    'bioContentP2': '',
+    'regionMap': '',
+    'quote': '',
+    'bioContentP3': ''    
+  },                                
 ];
+
+
+
 
 var modalWrapper = document.getElementById('modal-wrapper');
 
