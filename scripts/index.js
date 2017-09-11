@@ -206,9 +206,10 @@ var modalWrapper = docId('modal-wrapper');
 var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('bas-pres'), docId('bas-vp-salesops'), docId('bas-vp-sales'), docId('bas-directorbd-mar'), docId('bas-directorbd-ser'), docId('bas-directorbd-wr'), docId('bas-directorbd-mwr'), docId('bas-director-bd'), docId('bas-director-mis'), docId('bas-director-fa'), docId('bas-director-acct'), docId('bas-director-loss'), docId('bas-director-claims')];
 
 // for loop to check if id is clicked that matches array items
-for (var i = 0; i < bioPics.length-1; i++) {
-  bioPics[i].onclick = function () {   
-    modalWrapper.innerHTML = basTeamMembers[0][i];
+// , "picUrl", "firstName", "lastName", "companyTitle", "linkedInUrl", "bioContentP1", "bioContentP2", "regionMap", "quote"];
+for (let i = 0; i <= bioPics.length-1; i++) {
+  bioPics[i].onclick = function() {   
+    modalWrapper.innerHTML = basTeamMembers[i]["id"];
     modalWrapper.style.display = "block";
   };
 }
