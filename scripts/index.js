@@ -156,7 +156,7 @@ var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('
 // for loop to check if id is clicked that matches array items
 for (var i = 0; i < bioPics.length-1; i++) {
   bioPics[i].onclick = function () {   
-    modalWrapper.innerHTML = basMessages[i];
+    modalWrapper.innerHTML = basTeamMembers[i];
     modalWrapper.style.display = "block";
   };
 }
