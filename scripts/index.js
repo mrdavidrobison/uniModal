@@ -199,35 +199,19 @@ var basTeamMembers = [{
 var docId = function (id) {
   return document.getElementById(id);
 }
+
+var modalWrapper = docId('modal-wrapper');
+
 // array that includes [0]: portal login id, [1-15]: ids of bios, total of sixteen array items
 var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('bas-pres'), docId('bas-vp-salesops'), docId('bas-vp-sales'), docId('bas-directorbd-mar'), docId('bas-directorbd-ser'), docId('bas-directorbd-wr'), docId('bas-directorbd-mwr'), docId('bas-director-bd'), docId('bas-director-mis'), docId('bas-director-fa'), docId('bas-director-acct'), docId('bas-director-loss'), docId('bas-director-claims')];
 
-<<<<<<< HEAD
 // for loop to check if id is clicked that matches array items
 for (var i = 0; i < bioPics.length-1; i++) {
   bioPics[i].onclick = function () {   
-    modalWrapper.innerHTML = basTeamMembers[i];
+    modalWrapper.innerHTML = basTeamMembers[0][i];
     modalWrapper.style.display = "block";
   };
-=======
-var modalWrapper = document.getElementById('modal-wrapper');
-
-
-var searchPic;
-
-for (var i = 0; i < bioPics.length; i++) {
-  bioPics[i].onclick = function () {
-    function LoadImages() {
-      searchPic = new Image(100, 100);
-      searchPic.src = "XXXX/YYYY/search.png";
-      // This is correct and the path is correct
-    }
-
-  }
->>>>>>> 0535e09a10f960b1f9aec65bfb16ef8db3014115
 }
-
-document["pic1"].src = searchPic.src;
 
 // close the modal when close button is clicked
 document.getElementsByClassName('bas-close').onclick = function () {
