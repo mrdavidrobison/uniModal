@@ -227,24 +227,24 @@ for (let i = 0; i < bioPics.length; i++) {
     nameToAdd[0].innerHTML = arrayObject["firstName"] + " " + arrayObject["lastName"];
     
     var companyTitleToAdd = docClass("company-title");
-    companyTitleToAdd.innerHTML = arrayObject["companyTitle"];
+    companyTitleToAdd[0].innerHTML = arrayObject["companyTitle"];
 
     var linkedInUrlToAdd = docClass("linkedin-url");
     linkedInUrlToAdd[0].setAttribute('href', arrayObject["linkedInUrl"]);
 
     var bioContentP1ToAdd = docClass("bio-content-p1");
-    bioContentP1ToAdd.innerHTML = arrayObject["bioContentP1"];
+    bioContentP1ToAdd[0].innerHTML = arrayObject["bioContentP1"];
  
     var bioContentP2ToAdd = docClass("bio-content-p2");
-    bioContentP2ToAdd.innerHTML = arrayObject["bioContentP2"];
+    bioContentP2ToAdd[0].innerHTML = arrayObject["bioContentP2"];
     
     var regionMapToAdd = docClass("region-map");
-    regionMapToAdd.innerHTML = arrayObject["regionMap"];
+    regionMapToAdd[0].setAttribute('href', arrayObject["regionMap"]);
 
     var quoteToAdd = docClass("quote");
-    quoteToAdd.innerHTML = arrayObject["quote"];
+    quoteToAdd[0].innerHTML = arrayObject["quote"];
 
     var bioContentP3ToAdd = docClass("bio-content-p3");
-    bioContentP3ToAdd.innerHTML = arrayObject["bioContentP3"];    
+    bioContentP3ToAdd[0].innerHTML = arrayObject["bioContentP3"];    
   };
 }
