@@ -195,7 +195,6 @@ var basTeamMembers = [{
   },
 ];
 
-
 // shortcuts
 var docId = function(id) {
   return document.getElementById(id);
@@ -205,6 +204,8 @@ var docClass = function(cl) {
   return document.getElementsByClassName(cl);
 }
 
+var modalWrapper = docId('modal-wrapper');
+var teamBioModal = docClass('team-bio-modal');
 
 // array that includes [0]: portal login id, [1-15]: ids of bios, total of sixteen array items
 var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('bas-pres'), docId('bas-vp-salesops'), docId('bas-vp-sales'), docId('bas-directorbd-mar'), docId('bas-directorbd-ser'), docId('bas-directorbd-wr'), docId('bas-directorbd-mwr'), docId('bas-director-bd'), docId('bas-director-mis'), docId('bas-director-fa'), docId('bas-director-acct'), docId('bas-director-loss'), docId('bas-director-claims')];
@@ -214,46 +215,36 @@ var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('
 for (let i = 0; i < bioPics.length; i++) {
   bioPics[i].onclick = function() {  
 
-    var mem;
-    
-    var IdToAdd = docClass("team-bio-modal");
-    var memId = document.createElement(basTeamMembers[i-1]["id"]);
-    IdToAdd.appendChild(memId);
+    modalWrapper.style.display = "block";  
+    teamBioModal[0].style.display = "block";
+
+    var arrayObject = basTeamMembers[i-1];
 
     var picToAdd = docClass("pic-url");
-    picToAdd.setAttribute('src', mem["picUrl"]);
+    picToAdd[0].setAttribute('src', arrayObject["picUrl"]);
 
-    var firstNameToAdd = docClass("first-name");
-    var lastNameToAdd = docClass("last-name");
-    firstNameToAdd.innerHTML = mem["firstName"];
-    lastNameToAdd.innerHTML = mem["lastName"];
+    var nameToAdd = docClass("first-name");
+    nameToAdd[0].innerHTML = arrayObject["firstName"] + " " + arrayObject["lastName"];
     
     var companyTitleToAdd = docClass("company-title");
-    companyTitleToAdd.innerHTML = mem["companyTitle"];
+    companyTitleToAdd.innerHTML = arrayObject["companyTitle"];
 
     var linkedInUrlToAdd = docClass("linkedin-url");
-    linkedInUrlToAdd.setAttribute('href', mem["linkedInUrl"]);
+    linkedInUrlToAdd[0].setAttribute('href', arrayObject["linkedInUrl"]);
 
     var bioContentP1ToAdd = docClass("bio-content-p1");
-    bioContentP1ToAdd.innerHTML = mem["bioContentP1"];
+    bioContentP1ToAdd.innerHTML = arrayObject["bioContentP1"];
  
     var bioContentP2ToAdd = docClass("bio-content-p2");
-    bioContentP2ToAdd.innerHTML = mem["bioContentP2"];
+    bioContentP2ToAdd.innerHTML = arrayObject["bioContentP2"];
     
     var regionMapToAdd = docClass("region-map");
-    regionMapToAdd.innerHTML = mem["regionMap"];
+    regionMapToAdd.innerHTML = arrayObject["regionMap"];
 
     var quoteToAdd = docClass("quote");
-    quoteToAdd.innerHTML = mem["quote"];
+    quoteToAdd.innerHTML = arrayObject["quote"];
 
     var bioContentP3ToAdd = docClass("bio-content-p3");
-    bioContentP3ToAdd.innerHTML = mem["bioContentP3"];    
-
-    modalWrapper.style.display = "block";
+    bioContentP3ToAdd.innerHTML = arrayObject["bioContentP3"];    
   };
-}
-
-// close the modal when close button is clicked
-document.getElementsByClassName('bas-close').onclick = function () {
-  modalWrapper.style.display = "none";
 }
