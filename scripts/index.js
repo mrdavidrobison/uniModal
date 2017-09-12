@@ -239,7 +239,7 @@ for (let i = 0; i < bioPics.length; i++) {
     bioContentP2ToAdd[0].innerHTML = arrayObject["bioContentP2"];
     
     var regionMapToAdd = docClass("region-map");
-    regionMapToAdd[0].setAttribute('href', arrayObject["regionMap"]);
+    regionMapToAdd[0].setAttribute('src', arrayObject["regionMap"]);
 
     var quoteToAdd = docClass("quote");
     quoteToAdd[0].innerHTML = arrayObject["quote"];
