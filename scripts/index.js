@@ -195,6 +195,7 @@ var basTeamMembers = [{
   },
 ];
 
+
 // shortcuts
 var docId = function(id) {
   return document.getElementById(id);
@@ -207,6 +208,7 @@ var docClass = function(cl) {
 var modalWrapper = docId('modal-wrapper');
 var teamBioModal = docClass('team-bio-modal');
 
+
 // array that includes [0]: portal login id, [1-15]: ids of bios, total of sixteen array items
 var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('bas-pres'), docId('bas-vp-salesops'), docId('bas-vp-sales'), docId('bas-directorbd-mar'), docId('bas-directorbd-ser'), docId('bas-directorbd-wr'), docId('bas-directorbd-mwr'), docId('bas-director-bd'), docId('bas-director-mis'), docId('bas-director-fa'), docId('bas-director-acct'), docId('bas-director-loss'), docId('bas-director-claims')];
 
@@ -215,7 +217,6 @@ var bioPics = [docId('memberArrow'), docId('bas-ceo'), docId('bas-cfo'), docId('
 for (let i = 0; i < bioPics.length; i++) {
   bioPics[i].onclick = function() {  
 
-    modalWrapper.style.display = "block";  
     teamBioModal[0].style.display = "block";
 
     var arrayObject = basTeamMembers[i-1];
@@ -248,3 +249,9 @@ for (let i = 0; i < bioPics.length; i++) {
     bioContentP3ToAdd[0].innerHTML = arrayObject["bioContentP3"];    
   };
 }
+
+$(".team-bio-modal").on("show", function () {
+  $("body").addClass("modal-open");
+}).on("hidden", function () {
+  $("body").removeClass("modal-open")
+});
