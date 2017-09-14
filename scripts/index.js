@@ -1,4 +1,5 @@
-var basTeamMembers = [{
+var basTeamMembers = [
+  {
     id: 'bas-ceo',
     picUrl: 'http://brainstorm.solutions/bas/wp-content/uploads/2017/08/Team_Jim-C.jpg',
     firstName: 'James E.',
