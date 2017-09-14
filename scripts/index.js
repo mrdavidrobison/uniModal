@@ -192,7 +192,7 @@ var basTeamMembers = [{
     regionMap: '',
     quote: '',
     bioContentP3: ''
-  },
+  }
 ];
 
 
@@ -248,10 +248,49 @@ for (let i = 0; i < bioPics.length; i++) {
     var bioContentP3ToAdd = docClass("bio-content-p3");
     bioContentP3ToAdd[0].innerHTML = arrayObject["bioContentP3"];    
   };
-}
 
-$(".team-bio-modal").on("show", function () {
-  $("body").addClass("modal-open");
-}).on("hidden", function () {
-  $("body").removeClass("modal-open")
-});
+  jQuery(function($) {
+    window.modalOpen = false;
+    $(".team-bio").click(function() {
+      if (!window.modalOpen) {
+        $(".team-bio-modal").hide();
+        $(".team-bio-modal", this).show();
+        $("body").addClass("modal-open");
+        window.modalOpen = true;
+      }
+    });
+    $(".bas-close").click(function() {
+      if (window.modalOpen) {
+        setTimeout(function() {
+          $(".team-bio-modal").hide();
+          window.modalOpen = false;
+          $("body").removeClass("modal-open");
+        }, 100);
+      }
+    });
+  
+    $(document).mouseup(function(e) {
+      var container = $(".team-bio-modal");
+      if (!container.is(e.target) && container.has(e.target).length === 0) {
+        if (window.modalOpen) {
+          container.hide();
+          console.log("mouseUp");
+          setTimeout(function() {
+            window.modalOpen = false;
+            $("body").removeClass("modal-open");
+          }, 100);
+        }
+      }
+    });
+  
+    // Prevent <body> from scrolling while mouse is inside modal
+    $('.team-bio-modal-scroll').on( 'mousewheel DOMMouseScroll', function (e) {
+      var e0 = e.originalEvent;
+      var delta = e0.wheelDelta || -e0.detail;
+      this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+      e.preventDefault();
+    });
+  
+  });  
+
+}
