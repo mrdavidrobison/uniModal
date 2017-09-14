@@ -274,7 +274,6 @@ jQuery(function($) {
     if (!container.is(e.target) && container.has(e.target).length === 0) {
       if (window.modalOpen) {
         container.hide();
-        console.log("mouseUp");
         setTimeout(function() {
           window.modalOpen = false;
           $("body").removeClass("modal-open");
