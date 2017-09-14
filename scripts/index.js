@@ -10,7 +10,7 @@ jQuery(function($) {
   });  
 
   window.modalOpen = false;
-  $(".pic-url", ".bio-name").click(function() {
+  $(".team-bio").click(function() {
     if (!window.modalOpen) {
       $(".team-bio-modal", this).show();
       $("body").addClass("modal-open");
