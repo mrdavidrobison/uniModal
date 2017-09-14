@@ -1,16 +1,14 @@
 var imported = document.createElement('script');
-imported.src = 'modalDetails.js';
+imported.src = 'http://brainstorm.solutions/bas/wp-content/themes/betheme-child/modalDetails.js';
 document.head.appendChild(imported);
 
 // jQuery
 
-$.getScript('modalDetails.js', function()
-{
-    // script is now loaded and executed.
-    // put your dependent JS here.
-});
-
 jQuery(function($) {
+  
+  $.getScript('http://brainstorm.solutions/bas/wp-content/themes/betheme-child/modalDetails.js', function() {
+  });  
+
   window.modalOpen = false;
   $(".team-bio").click(function() {
     if (!window.modalOpen) {
@@ -19,6 +17,7 @@ jQuery(function($) {
       window.modalOpen = true;
     }
   });
+
   $(".bas-close").click(function() {
     if (window.modalOpen) {
       setTimeout(function() {
@@ -73,35 +72,35 @@ var bioPics = [docId('bas-ceo'), docId('bas-cfo'), docId('bas-pres'), docId('bas
 for (let i = 0; i < bioPics.length; i++) {
   bioPics[i].onclick = function() {  
 
-    teamBioModal[0].style.display = "block";
+    teamBioModal[i].style.display = "block";
 
     var arrayObject = basTeamMembers[i];
 
     var picToAdd = docClass("pic-url");
-    picToAdd[0].setAttribute('src', arrayObject["picUrl"]);
+    picToAdd[i].setAttribute('src', arrayObject["picUrl"]);
 
     var nameToAdd = docClass("bio-name");
-    nameToAdd[0].innerHTML = arrayObject["firstName"] + " " + arrayObject["lastName"];
+    nameToAdd[i].innerHTML = arrayObject["firstName"] + " " + arrayObject["lastName"];
     
     var companyTitleToAdd = docClass("company-title");
-    companyTitleToAdd[0].innerHTML = arrayObject["companyTitle"];
+    companyTitleToAdd[i].innerHTML = arrayObject["companyTitle"];
 
     var linkedInUrlToAdd = docClass("linkedin-url");
-    linkedInUrlToAdd[0].setAttribute('href', arrayObject["linkedInUrl"]);
+    linkedInUrlToAdd[i].setAttribute('href', arrayObject["linkedInUrl"]);
 
     var bioContentP1ToAdd = docClass("bio-content-p1");
-    bioContentP1ToAdd[0].innerHTML = arrayObject["bioContentP1"];
+    bioContentP1ToAdd[i].innerHTML = arrayObject["bioContentP1"];
  
     var bioContentP2ToAdd = docClass("bio-content-p2");
-    bioContentP2ToAdd[0].innerHTML = arrayObject["bioContentP2"];
+    bioContentP2ToAdd[i].innerHTML = arrayObject["bioContentP2"];
     
     var regionMapToAdd = docClass("region-map");
-    regionMapToAdd[0].setAttribute('src', arrayObject["regionMap"]);
+    regionMapToAdd[i].setAttribute('src', arrayObject["regionMap"]);
 
     var quoteToAdd = docClass("quote");
-    quoteToAdd[0].innerHTML = arrayObject["quote"];
+    quoteToAdd[i].innerHTML = arrayObject["quote"];
 
     var bioContentP3ToAdd = docClass("bio-content-p3");
-    bioContentP3ToAdd[0].innerHTML = arrayObject["bioContentP3"];    
+    bioContentP3ToAdd[i].innerHTML = arrayObject["bioContentP3"];    
   };
 }
